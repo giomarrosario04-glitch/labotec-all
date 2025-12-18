@@ -34,6 +34,10 @@ export const Home: React.FC = () => {
                 <Link to="/servicios" className="inline-flex items-center justify-center px-8 py-4 border border-blue-400 bg-transparent text-white rounded-lg font-bold hover:bg-blue-800/50 transition">
                   Ver Análisis
                 </Link>
+                 {/* 🔹 Nuevo botón de Inicio */}
+                <Link to="/Inicio"className="inline-flex items-center px-4 py-2 bg-lab-600 text-white rounded-lg font-semibold hover:bg-lab-700 transition" >
+                   Inicio
+                </Link>       
               </div>
             </div>
          </div>
